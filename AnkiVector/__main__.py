@@ -64,30 +64,31 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+*Heya 🎈, I'm Natalie.
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
-hit /help to Find my list of available commands 🕹*
+I'm a Powerfull group manager bot.I'm here to manage yor group easyly🥀.Dev by @SANTA_R1
+hit /help to more commands🧩.*
+©2022 Project by @SANTA_R1.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="Updates 📢", url="https://t.me/Natalie_Updates"),
+        InlineKeyboardButton(text="Support 📲", url="https://t.me/Natalie_Support"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="Dev 🚥", url="url="https://t.me/SANTA_R1"),
+        InlineKeyboardButton(text="Help ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Natalie To Youre Groups ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
+ANKIVECTOR_STICKER = ""
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
@@ -106,7 +107,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [SANTA](t.me/SANTA_R1)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
